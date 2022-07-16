@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Andika Bagus A.S</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input 
+              class="form-control me-1" 
+              type="search" 
+              placeholder="Search" 
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Experience</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/afrils/" target="_blank">Facebook</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/andikabgs" target="_blank">Instagram</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCE3-LRm-3NiHExuMPGau-7Q" target="_blank">Youtube</a></li>
+                </ul>
+                <li class="nav-item">
+                <a class="nav-link" href="login/cek_login.php">Login</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner -->
+    .<div class="container-fluid banner">
+        <div class="container text-center">
+            <h3 class="display-6"> Selamat Datang di Website Andika</h3>
+            <h2 class="display-1"> Hai! Halo!</h2>
+            <a href="#service">
+                <button type="button" class="btn btn-primary btn-lg">Our Experience</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- service -->
+    <div class="container-fluid service pt-5 pb-5" id="service">
+        <div class="container text-center" >
+            <h2 class="display-3" > Our Experience Project </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quam?</p>
+            <div class="row pt-4 ">
+                <div class="col-md-4">
+                    <span class="round"><i class="fa-solid fa-code fa-5x"></i></span>
+                    <h3 class="mt-3">Programming</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum voluptates amet laborum minima modi!</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="round"><i class="fa-solid fa-palette fa-5x"></i></span>
+                    <h3 class="mt-3">Desain</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum voluptates amet laborum minima modi!</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="round"><i class="fa-solid fa-network-wired fa-5x"></i></span>
+                    <h3 class="mt-3">Networking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum voluptates amet laborum minima modi!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portofolio -->
+    <div class="container-fluid portofolio pt-5 pb-5 bg-light" id="portofolio">
+        <div class="container text-center">
+            <h2 class="display-3" >Portofolio</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error est laboriosam beatae? Repellendus dolorum magnam maiores itaque tempora minima eveniet!</p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="http://birokesra.babelprov.go.id/sites/default/files/styles/galleryformatter_slide/public/images/gallery/004_lorem.jpg?itok=NAdhNwvP" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-9/116705861_129444958819752_6957919039607538942_n.png?stp=dst-png_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=85a577&_nc_ohc=UX0YU2aVe3gAX8eLmun&_nc_ht=scontent-sin6-1.xx&oh=00_AT_3_HO7Oo8ujthucApzUXD81QmT8Oxf7fr4XXFYC8-9mw&oe=62E7D06C" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="https://es.calcuworld.com/wp-content/uploads/sites/2/2016/02/lorem-ipsum.png" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="https://2.bp.blogspot.com/-LXRLED7k5qQ/XIob26VUZQI/AAAAAAAAQEs/IyT6TSkPA2QqA6PHbdLzPrMt2HP2rvJNwCLcBGAs/s320/lorem%2Bipsum.jpg" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-9/116705861_129444958819752_6957919039607538942_n.png?stp=dst-png_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=85a577&_nc_ohc=UX0YU2aVe3gAX8eLmun&_nc_ht=scontent-sin6-1.xx&oh=00_AT_3_HO7Oo8ujthucApzUXD81QmT8Oxf7fr4XXFYC8-9mw&oe=62E7D06C" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="https://es.calcuworld.com/wp-content/uploads/sites/2/2016/02/lorem-ipsum.png" 
+                            class="card-img-top" 
+                            width="200px"
+                            height="275px"
+                            alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lorem, ipsum.</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quaerat expedita cupiditate veritatis dolorem dignissimos nam hic.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="container-fluid about pt-5 pb-5 mb-5" id="about">
+        <div class="container">
+            <h3 class="display-3 text-center"> About </h3>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cumque illum quasi eligendi aliquid expedita ex consectetur maxime. Maiores, ex.</p>
+            <div class="clearfix pt-5">
+                <img 
+                    src="http://3.bp.blogspot.com/--HnY5_XudiE/VQEpYmCkEjI/AAAAAAAAF8Q/O3LQdEdw0AM/s1600/About%2BMe%2BPt%2BI%2BFacebook.png" 
+                    class="col-md-6 float-md-end mb-3 crop-img" 
+                    width="300px"
+                    height="300px"
+                    alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas vel aliquam odio dolore est et non.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae voluptatem, eos magni iure id exercitationem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex suscipit tempora nobis, quam iusto fugit alias culpa sequi amet quasi enim doloribus ea officia laborum necessitatibus atque veniam ipsum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum rem obcaecati quasi voluptatem totam, pariatur quis fugiat et excepturi ipsa facilis labore omnis perferendis mollitia veritatis minima libero laboriosam voluptates.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- team -->
+    <div class="container-fluid team pt-5 pb-5 bg-light" id="team">
+      <div class="container text-center">
+        <h2 class="display-3"> Our Team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore placeat eum error voluptate facere nulla voluptatibus culpa, alias perspiciatis iste.</p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center team">
+            <img src="https://www.kindpng.com/picc/m/271-2718739_cartoon-male-boy-character-boy-cartoon-characters-sketches.png" alt="p-andika"
+            class="rounded-circle mb-3">
+            <h4>Andika</h4>
+            <p>Web Designer</p>
+            <p>
+              <a href="#" class="sosmed"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center team">
+            <img src="https://a.trusted-stream.life/eyes-robot/img/1.png" alt="p-andika"
+            class="rounded-circle mb-3">
+            <h4>Afril</h4>
+            <p>Programmer</p>
+            <p>
+              <a href="#" class="sosmed"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center team">
+            <img src="https://thumb.suara.com/eEsCd5pHUezwOAR1O-EpH3R6sR8=/653x366/https://media.suara.com/pictures/653x366/2022/05/01/76445-ilustrasi-kenshin-himura-ultramunchcom.jpg" alt="error-jpg-andika"
+            class="rounded-circle mb-3">
+            <h4>Sandi</h4>
+            <p>Network Enginer</p>
+            <p>
+              <a href="#" class="sosmed"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="sosmed"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- client -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href=""> <img src="https://1.bp.blogspot.com/-Gk7PJfZlTKM/YI0265VKDVI/AAAAAAAAE20/tSbccfFLIPAGclfx2il52vPUdwR8TJJsQCLcBGAsYHQ/s1600/Logo%2BFacebook%2BFormat%2BPNG.png" alt=""></a>
+          </div>
+          <div class="col">
+          <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/53/20210618182605%21Google_%22G%22_Logo.svg/120px-Google_%22G%22_Logo.svg.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="https://www.logo.wine/a/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.svg" alt=""></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="https://i.pinimg.com/564x/98/0b/a0/980ba07956ccfdf81b5060b1795cdcad.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak"> Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda laudantium ullam nihil sed incidunt at facere, asperiores, consectetur amet nemo saepe enim mollitia doloremque perspiciatis quo expedita explicabo provident.</p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input 
+            type="text" 
+            class="form-control form-control-lg mb-3" placeholder="Nama" 
+            />
+            <input 
+            type="email" 
+            class="form-control form-control-lg mb-3" placeholder="Email" 
+            />
+            <input 
+            type="number" 
+            class="form-control form-control-lg mb-3" placeholder="No. Phone" 
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea name="" id="" cols="30" rows="5" class="form-control form-control-lg mb-3"></textarea>
+          </div>
+        </div>
+        <div class="col-nd-5 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg"> Kirim Pesan </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container text-left pt-2 pb-2">
+        All Right Reserved &copy; Afril | 2022
+      </div>
+    </div>
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

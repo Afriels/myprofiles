@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://miro.medium.com/max/1400/1*YYVxBbhjvezxuOvmshIK2w.jpeg") ;
+    background-size: cover;
+}
+.nav  {
+    display: flex;
+    
+}
+.menu {
+    display: flex;
+}
